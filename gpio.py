@@ -2,7 +2,7 @@
 #        4,6,2017     10:31 AM             #
 #               by resbi                   #
 #    thanks: the creator of lib:os,time    #
-#   version 1.0.0.1    4,6,2017 11:11 AM   #
+#   version 1.0.0.1    16.6,2017 13:00     #
 ############################################
 import os,time
 

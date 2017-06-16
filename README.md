@@ -38,3 +38,6 @@ gpio.pinValue("PIN name","Value/high/low","on/off") #To set the PIN value.[high 
 
 # About copy.
 If you want copy my lib in to your code,I hope you can tell to me in the issue befor you update the code.
+
+# Java lib:
+   CodeCat's:https://github.com/1751634419/GPIOControl

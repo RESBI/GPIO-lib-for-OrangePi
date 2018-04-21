@@ -12,18 +12,19 @@ gpio.pinMount("PIN name") #To export the PIN. 挂载这个管脚
 
 gpio.pinUmount("PIN name") #To Unexport the PIN. 卸载这个管脚
 
-gpio.pinMode("PIN name","INPUT/OUTPUT","on/off") #To set the PIN mode(INPUT/OUPUT). 设置管脚模式(输入/输出)
+gpio.pinMode("PIN name","mode(in/out)") #To set the PIN mode(INPUT/OUPUT). 设置管脚模式(输入/输出)
 
-gpio.pinValue("PIN name","Value/high/low","on/off") #To set the PIN value.[high = 1,low = 0] 设置管脚输出等级.[high为1，low为0]
+gpio.pinValue("PIN name","Value(high/low)") #To set the PIN value.[high = 1,low = 0] 设置管脚输出等级.[high为1，low为0]
 
 # PS:
+Unfixed:
+Pwm use soft the pwm, s it will take up many CPU while it's running.
 
+Fixed:
 [The PIN name must be spell in CAPITAL.As:"PA4","PD9"]
-
 [PIN管脚名字必须大写，例如:"PA4","PD9"]
 
 [And the PIN number must be units.]
-
 [PIN管脚的第三位数字只能是单位，这个以后会修复...:)]
 
 # Other
